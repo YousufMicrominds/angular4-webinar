@@ -3,4 +3,5 @@
 body {
 	background-color: #303030;
 	font-family: Helvetica;
+	background-image: url("assets/body_background.jpg");
 }
