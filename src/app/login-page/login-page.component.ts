@@ -17,7 +17,7 @@ export class LoginPageComponent implements OnInit {
 	}
 
 	private validate(email: string, password: string): boolean {
-		if(email.match(/[a-z0-9\.]?@[a-z]?\.[a-z]?/g) && password.length >= 6) {
+		if(email.match(/[a-z]*@[a-z]*\.[a-z]*/g) && password.length >= 6) {
 			return true;
 		}
 		return false;
